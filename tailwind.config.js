@@ -3,10 +3,10 @@ module.exports = {
   content: ["./*.html"],
   theme: {
     screens: {
-      sm: "480px",
-      md: "768px",
-      lg: "976px",
-      xl: "1020px",
+      sm: "320px",
+      md: "575px",
+      lg: "767px",
+      xl: "992px",
     },
     extend: {
       colors: {

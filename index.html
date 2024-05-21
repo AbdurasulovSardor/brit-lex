@@ -7,6 +7,112 @@
     <title>Brit Lex</title>
   </head>
   <body>
+    <header class="fixed z-20 w-full bg-white py-[20px]">
+      <div class="container px-[20px]">
+        <nav class="flex items-center justify-between">
+          <a href="index.html" class="mr-2 hover:opacity-[0.8] duration-200">
+            <img src="src/img/logo.svg"
+              class="w-[71px] h-[36px] md:w-[89px] md:h-[45px] lg:w-[89px] xl:w-[100px] xl:h-[54px]" alt="logo" />
+          </a>
+
+          <ul class="hidden items-center gap-6 lg:flex">
+            <li>
+              <a href="#"
+                class="text-firstColor font-medium text-[16px] hover:opacity-[0.8] duration-200 xl:text-[18px]">Home</a>
+            </li>
+            <li>
+              <a href="#"
+                class="text-firstColor font-medium text-[16px] hover:opacity-[0.8] duration-200 xl:text-[18px]">Skills</a>
+            </li>
+            <li>
+              <a href="#"
+                class="text-firstColor font-medium text-[16px] hover:opacity-[0.8] duration-200 xl:text-[18px]">About
+                Us</a>
+            </li>
+            <li>
+              <a href="#"
+                class="text-firstColor font-medium text-[16px] hover:opacity-[0.8] duration-200 xl:text-[18px]">Pricing</a>
+            </li>
+            <li>
+              <a href="#"
+                class="text-firstColor font-medium text-[16px] hover:opacity-[0.8] duration-200 xl:text-[18px]">Contacts</a>
+            </li>
+          </ul>
+
+          <a href="#"
+            class="hidden font-normal text-[18px] px-[40px] py-[12px] border-2 border-firstColor rounded-[5px] hover:bg-firstColor hover:text-white duration-200 ease-in xl:text-[20px] xl:px-[57px] xl:py-[17px] xl:font-medium lg:block">Let's
+            Talk</a>
+
+          <button class="p-0 m-0 lg:hidden" id="menu-btn">
+            <img src="src/img/menu.svg" class="w-[33px] h-[19px]" alt="menu" />
+          </button>
+        </nav>
+      </div>
+    </header>
+
+    <main class="pt-[90px]">
+      <section>
+        <div class="container flex justify-between items-center flex-col-reverse px-[20px] lg:flex-row">
+          <div class="lg:max-w-[330px] text-center lg:text-left xl:max-w-[480px]">
+            <h1
+              class="home-title font-semibold text-[24px] leading-[40px] mb-[16px] md:text-[34px] xl:text-[55px] xl:leading-[60px] xl:mb-[30px]">
+              Learn <br class="sm:hidden lg:block">
+              Any <br class="block md:hidden">
+              Foreign <br class="hidden lg:block">
+              Language
+            </h1>
+            <p class="font-normal text-[14px] text-textColor mb-[30px] xl:text-[16px] xl:mb-[30px]">
+              With our teachers who write a program for
+              each student, you will be able to make your
+              first sketch after the first lesson.
+            </p>
+            <a href="#"
+              class="block font-medium text-[16px] text-white py-[18px] bg-firstColor rounded-[5px] border-2 border-firstColor hover:bg-transparent hover:text-firstColor duration-200 md:inline-block md:px-[100px]">
+              Get started
+            </a>
+          </div>
+
+          <img src="src/img/languages.svg" class="lg:w-[400px] lg:h-[400px] mb-[16px] xl:w-[500px] xl:h-[500px]"
+            alt="image" />
+        </div>
+      </section>
+    </main>
+
+    <footer></footer>
+
+    <div class="hidden left-0 top-0 z-30 w-full h-full bg-firstColor bg-opacity-[0.8]" id="menu">
+      <div class="bg-white h-full p-[15px] md:w-[350px]">
+        <div class="flex items-center justify-between border-b-[1px] border-borderColor pb-[20px]">
+          <a href="index.html">
+            <img src="src/img/logo.svg" class="w-[71px] h-[36px]" alt="logo" />
+          </a>
+          <button id="menu-close">
+            <img src="src/img/close.svg" class="w-[18px] h-[18px]" alt="to close">
+          </button>
+        </div>
+
+        <ul class="pt-[48px] pb-[60px]">
+          <li>
+            <a href="#" class="block font-medium text-[16px] pb-[30px] hover:opacity-[0.8] duration-200">Home</a>
+          </li>
+          <li>
+            <a href="#" class="block font-medium text-[16px] pb-[30px] hover:opacity-[0.8] duration-200">Skills</a>
+          </li>
+          <li>
+            <a href="#" class="block font-medium text-[16px] pb-[30px] hover:opacity-[0.8] duration-200">About Us</a>
+          </li>
+          <li>
+            <a href="#" class="block font-medium text-[16px] pb-[30px] hover:opacity-[0.8] duration-200">Pricing</a>
+          </li>
+          <li>
+            <a href="#" class="font-medium text-[16px] hover:opacity-[0.8] duration-200">Contacts</a>
+          </li>
+        </ul>
+        <a href="#"
+          class="font-normal text-[18px] text-black py-[17px] px-[65px] border-2 border-firstColor text-center rounded-[5px] hover:bg-firstColor hover:text-white duration-200">Let’s
+          Talk</a>
+      </div>
+    </div>
 
     <script src="src/js/script.js"></script>
   </body>

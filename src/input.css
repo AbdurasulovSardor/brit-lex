@@ -31,3 +31,24 @@ a {
 .section-title {
   @apply font-semibold text-[48px] text-black
 }
+
+.home-title {
+  background-image: url("../../src/img/light-bulb.svg");
+  background-repeat: no-repeat;
+  background-position: right 85px;
+  background-size: 100px;
+}
+
+@media screen and (min-width: 767px) {
+  .home-title {
+    background-position: right 60px;
+    background-size: 70px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .home-title {
+    background-position: right 80px;
+    background-size: 90px;
+  }
+}
